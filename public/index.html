@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="stylesheet" href="main.css" />
+      <title>Photography Landing Page</title>
+   </head>
+   <body class="font-main">
+      <!--Header Section-->
+      <header id="header" class="bg-header-image bg-no-repeat bg-cover w-screen h-screen">
+         <!-- Navigation Bar -->
+         <nav class="text-white px-12 py-4 md:container pt-20">
+            <div class="flex justify-between items-center mt-8">
+               <!-- logo -->
+               <div class="flex items-center cursor-pointer">
+                  <a href="#header"><img src="./img/logo.png" alt="Logo" class="h-10" /></a>
+                  <span class="text-xl font-semibold pl-3">Photography</span>
+               </div>
+               <!--Primary menus-->
+               <div class="text-xl font-bold">
+                  <ul class="hidden md:flex items-center space-x-6">
+                     <li>
+                        <a href="#header" class="py-2 px-2 border-b-4 border-bg-green"> Home </a>
+                     </li>
+                     <li>
+                        <a href="#photoapp" class="py-2 px-2 hover:text-text-green transition duration-300"> Photo App </a>
+                     </li>
+                     <li>
+                        <a href="#overview" class="py-2 px-2 hover:text-text-green transition duration-300"> Overview </a>
+                     </li>
+                     <li>
+                        <a href="#download" class="py-2 px-2 hover:text-text-green transition duration-300"> Download </a>
+                     </li>
+                  </ul>
+               </div>
+
+               <!-- mobile-menu button -->
+               <div class="md:hidden text-3xl font-bold">
+                  <span class="cursor-pointer menu-button hover:text-text-green transition-all duration-300 focus:text-text-green"
+                     >&#9776;</span
+                  >
+                  <!-- <a href="javascript:void(0)" id="close_btn">&times;</a> -->
+               </div>
+            </div>
+            <!-- mobile-menu content -->
+            <div class="hidden mt-5 mobile-menu">
+               <ul class="text-center">
+                  <li class="mb-2">
+                     <a
+                        href="#header"
+                        class="block rounded-md text-lg px-2 py-2 bg-text-green font-semibold transition-all duration-500"
+                        >Home
+                     </a>
+                  </li>
+                  <li class="mb-2">
+                     <a
+                        href="#photoapp"
+                        class="block rounded-md text-lg px-2 py-2 hover:bg-text-green font-semibold transition-all duration-500"
+                     >
+                        Photo App
+                     </a>
+                  </li>
+                  <li class="mb-2">
+                     <a
+                        href="#overview"
+                        class="block rounded-md text-lg px-2 py-2 hover:bg-text-green font-semibold transition-all duration-500"
+                     >
+                        Overview
+                     </a>
+                  </li>
+                  <li class="mb-2">
+                     <a
+                        href="#download"
+                        class="block rounded-md text-lg px-2 py-2 hover:bg-text-green font-semibold transition-all duration-500"
+                     >
+                        Download
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <!-- Hero Section -->
+         <div class="mx-auto md:container px-10 lg:px-18">
+            <div class="mt-52 px-10 md:mt-64 lg:mt-96 text-white">
+               <h2 class="text-4xl md:text-5xl font-bold uppercase text-center tracking-wider leading-10">
+                  "Your photogrphy is a record of your living, for anyone who really sees."
+               </h2>
+            </div>
+            <div class="flex flex-row items-center mt-6 space-x-4">
+               <div class="basis-1/4 md:basis-1/2 lg:basis-1/2">
+                  <img src="./img/line.png" alt="" class="w-full block mx-auto" />
+               </div>
+               <div class="basis-1/2 md:basis-1/2 lg:basis-1/4">
+                  <span class="block text-center font-normal text-white md:pl-2 lg:pl-3">print your life in a simple photo</span>
+               </div>
+               <div class="basis-1/4 md:basis-1/2 lg:basis-1/2">
+                  <img src="./img/line.png" alt="" class="w-full block mx-auto" />
+               </div>
+            </div>
+            <div class="mt-12 text-center mx-auto">
+               <button class="btn">Get Started <i class="fas fa-arrow-circle-right pl-3 text-xl"></i></button>
+            </div>
+            <div class="text-white container mt-10 text-2xl">
+               <div class="flex flex-row justify-center space-x-5">
+                  <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+                  <a href="https://www.instagram.com/?hl=en"><i class="fas fa-camera-retro"></i></a>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!--END of Header Section-->
+
+      <!--Photo App Section-->
+      <section id="photoapp" class="bg-second-image bg-cover bg-no-repeat w-screen max-h-max">
+         <div class="container mt-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+               <div class="md:pt-8 lg:pt-14">
+                  <h2 class="heading text-left p-1 lg:pr-64">Everything you need from Photo App</h2>
+                  <p class="mt-14 text-justify font-extralight leading-10 tracking-widest p-1 lg:pr-20 lg:text-left">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam culpa a quisquam esse delectus, accusantium
+                     blanditiis veniam dolor ratione minus. Animi numquam cum ipsam. Voluptatem dicta iste assumenda magnam
+                     aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque aut fugit cumque consequuntur alias
+                     accusantium aliquid blanditiis voluptas voluptatem ducimus autem maxime, non corrupti nisi neque doloremque
+                     molestias rerum voluptates!
+                  </p>
+                  <div class="mt-8">
+                     <button class="btn">Get Started <i class="fas fa-arrow-circle-right pl-3 text-xl"></i></button>
+                  </div>
+               </div>
+               <div class="mx-auto mt-10">
+                  <img src="./img/mobileApp1.png" alt="APP1" class="w-80" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="bg-bg-white w-screen max-h-max">
+         <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+               <div class="mt-8 mx-auto">
+                  <img src="./img/mobileApp2.png" alt="APP2" class="w-80" />
+               </div>
+               <div class="pt-6 md:pt-8 lg:pt-14 lg:pl-40">
+                  <h2 class="heading text-left p-1">powerfull yet overview App</h2>
+                  <p class="mt-14 text-justify font-extralight leading-10 tracking-widest p-1 lg:text-left">
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam culpa a quisquam esse delectus, accusantium
+                     blanditiis veniam dolor ratione minus. Animi numquam cum ipsam. Voluptatem dicta iste assumenda magnam
+                     aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque aut fugit cumque consequuntur alias
+                     accusantium aliquid blanditiis voluptas voluptatem ducimus autem maxime, non corrupti nisi neque doloremque
+                     molestias rerum voluptates!
+                  </p>
+                  <div class="mt-8">
+                     <button class="btn">Get Started <i class="fas fa-arrow-circle-right pl-3 text-xl"></i></button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--END of Photo App Section-->
+
+      <!--Overview Section-->
+      <section id="overview" class="bg-second-image bg-cover bg-no-repeat w-screen max-h-max">
+         <div class="container mt-10">
+            <div class="lg:grid lg:grid-cols-2">
+               <div class="flex flex-col items-center space-y-4">
+                  <div class="text-text-green text-5xl lg:text-6xl lg:mt-40">
+                     <i class="fas fa-camera"></i>
+                  </div>
+                  <div class="w-44 text-center">
+                     <h3 class="text-2xl font-bold tracking-wider text-text-green capitalize">Create your own gallery</h3>
+                  </div>
+                  <p class="text-justify tracking-wider pt-10 lg:px-36 lg:text-center">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quod minima dolore dolores reiciendis
+                     eligendi, nam beatae accusamus distinctio culpa hic harum doloribus recusandae quisquam. Hic explicabo
+                     mollitia temporibus dolores?
+                  </p>
+               </div>
+               <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
+                  <div class="relative mx-auto">
+                     <img src="./img/gallery1.png" alt="" class="w-80 h-60" />
+                     <div class="absolute bottom-4 left-5 text-icon-clr text-4xl">
+                        <i class="fas fa-comment px-2"></i>
+                        <i class="fas fa-heart px-2"></i>
+                     </div>
+                  </div>
+                  <div class="relative mx-auto">
+                     <img src="./img/gallery2.png" alt="" class="w-80 h-60" />
+                     <div class="absolute bottom-4 left-5 text-icon-clr text-4xl">
+                        <i class="fas fa-comment px-2"></i>
+                        <i class="fas fa-heart px-2"></i>
+                     </div>
+                  </div>
+                  <div class="relative mx-auto">
+                     <img src="./img/gallery3.png" alt="" class="w-80 h-60" />
+                     <div class="absolute bottom-4 left-5 text-icon-clr text-4xl">
+                        <i class="fas fa-comment px-2"></i>
+                        <i class="fas fa-heart px-2"></i>
+                     </div>
+                  </div>
+                  <div class="relative mx-auto">
+                     <img src="./img/gallery4.png" alt="" class="w-80 h-60" />
+                     <div class="absolute bottom-4 left-5 text-icon-clr text-4xl">
+                        <i class="fas fa-comment px-2"></i>
+                        <i class="fas fa-heart px-2"></i>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex mt-10 justify-center space-x-8 lg:col-span-2">
+                  <a href="#"><img src="./img/left-arrow.png" alt="" class="w-10" /></a>
+                  <a href="#"><img src="./img/right-arrow.png" alt="" class="w-10" /></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="bg-third-image bg-cover bg-no-repeat w-screen max-h-max">
+         <div class="container flex flex-col items-center my-40">
+            <div class="text-white">
+               <h3 class="text-3xl tracking-wider capitalize">Subscribe for free</h3>
+            </div>
+            <div class="mt-8 relative lg:mt-14">
+               <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="w-96 p-5 rounded-3xl placeholder:text-2xl placeholder:text-gray-700 placeholder:tracking-wider"
+               />
+               <div class="absolute top-4 right-4">
+                  <img src="./img/right-arrow.png" alt="" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--END of Overview Section-->
+
+      <!--Download Section-->
+      <section id="download" class="bg-second-image bg-cover bg-no-repeat w-screen max-h-max">
+         <div class="container mt-10">
+            <h3 class="text-center text-3xl font-bold text-gray-600 tracking-wider capitalize">Download it for free</h3>
+            <p class="text-gray-600 text-justify mt-8 lg:px-28">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam, sint eaque molestias adipisci tenetur
+               ipsam voluptates officia accusamus aperiam minima quae beatae praesentium et assumenda sequi velit unde? Beatae
+               sapiente placeat molestias culpa delectus! Omnis neque repellat asperiores, laudantium eveniet ad deleniti quos
+               quam consectetur cum quaerat cupiditate quo delectus aspernatur ab aliquid libero sapiente sit facilis incidunt
+               nemo dolore fugiat. Odit dignissimos dolorum delectus soluta corrupti, ullam, ab accusamus optio suscipit et natus
+               sed nisi eos totam cum excepturi non libero pariatur? Perferendis consequatur iure maiores doloremque magnam
+               officiis harum mollitia nemo! Voluptatibus explicabo autem quibusdam quod architecto.
+            </p>
+            <div class="flex flex-row space-x-20 lg:space-x-32 justify-center mt-10">
+               <img src="./img/appleLogo.png" alt="AppleAPP" />
+               <img src="./img/androidLogo.png" alt="GoogleAPP" />
+            </div>
+         </div>
+      </section>
+      <footer class="bg-bg-white w-screen">
+         <div class="container pt-10 md:flex md:flex-row md:justify-between md:pt-8">
+            <div class="flex flex-row space-x-14 items-center">
+               <i class="fas fa-camera text-5xl text-text-green"></i>
+               <p class="tracking-wider capitalize">Copyright by photoapp - all right reserved</p>
+            </div>
+            <div class="py-8 text-center">
+               <a href="#"><p>Contact Us | Our Teams</p></a>
+            </div>
+         </div>
+      </footer>
+      <!--END of Download Section-->
+
+      <!-- js -->
+      <script src="./main.js"></script>
+      <!-- fontawesome -->
+      <script src="https://kit.fontawesome.com/a2c234ef4d.js" crossorigin="anonymous"></script>
+   </body>
+</html>

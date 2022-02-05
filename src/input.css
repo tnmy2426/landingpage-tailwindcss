@@ -1,0 +1,55 @@
+@tailwind base;
+html,
+body {
+   scroll-behavior: smooth;
+   font-family: "Rosario", "sans-serif";
+   overflow-x: hidden;
+}
+
+section {
+   padding: 2rem 0;
+}
+@tailwind components;
+
+.btn {
+   @apply bg-bg-green text-white px-7 py-4;
+}
+
+.heading {
+   @apply capitalize text-3xl font-bold text-text-green;
+}
+
+@tailwind utilities;
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"); */
+
+/* MOBILE MENU BAR */
+
+.overlay {
+   @apply h-full fixed top-0 left-0 overflow-x-hidden transition-all;
+   width: 0 !important;
+   background-color: #373a40ec;
+}
+
+.overlay_content {
+   @apply relative w-full text-center mt-12;
+   top: 20%;
+}
+
+.overlay_content a {
+   @apply block text-xl font-bold uppercase tracking-wide text-white py-4;
+}
+
+.cross_btn {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   text-align: center;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+}

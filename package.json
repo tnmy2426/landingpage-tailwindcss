@@ -1,0 +1,17 @@
+{
+   "name": "Project01",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "build:css": "tailwindcss -i ./src/input.css -o ./public/main.css -w"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "autoprefixer": "^10.4.2",
+      "postcss": "^8.4.5",
+      "tailwindcss": "^3.0.18"
+   }
+}
